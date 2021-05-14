@@ -92,15 +92,204 @@
         },
         {
             "name": "Have {X} Missiles",
-            "variants": [[1, ""]]
+            "variants": [
+                [1, "20"],
+                [1, "40"],
+                [1, "60"],
+                [1, "80"]
+            ]
         },
         {
             "name": "Have {X} Power Bombs",
+            "variants": [
+                [1, "2"],
+                [1, "4"],
+                [1, "6"],
+                [1, "8"]
+            ]
+        },
+        {
+            "name": "Have {X} Beam Combo(s)",
+            "variants": [
+                [3,  "1"],
+                [8,  "2"],
+                [16, "3"],
+                [24, "4"]
+            ],
+            "types": ["item", "beam-combo"]
+        },
+        {
+            "name": "Collect all Dark upgrades (Beam, Suit, Visor)",
+            "variants": [[22, ""]]
+        },
+        {
+            "name": "Collect all Light upgrades (Beam, Suit)",
+            "variants": [[22, ""]]
+        },
+        {
+            "name": "{X}",
+            "variants": [
+                [1, "Energy Transfer Module"],
+                [1, "Missile Launcher", "missile"],
+                [1, "Seeker Launcher", "missile"],
+                [1, "Morph Ball Bomb", "ball-upgrade"],
+                [1, "Boost Ball", "ball-upgrade"],
+                [1, "Spider Ball", "ball-upgrade"],
+                [1, "Main Power Bomb", "ball-upgrade"],
+                [1, "Space Jump Boots", "movement-system"],
+                [1, "Gravity Boost", "movement-system"],
+                [1, "Grapple Beam", "movement-system"],
+                [1, "Screw Attack", "movement-system"],
+                [1, "Dark Beam", "beam"],
+                [1, "Light Beam", "beam"],
+                [1, "Annihilator Beam", "beam"],
+                [1, "Dark Suit", "suit"],
+                [1, "Light Suit", "suit"],
+                [1, "Dark Visor", "visor"],
+                [1, "Echo Visor", "visor"],
+                [1, "Violet Translator"],
+                [1, "Amber Translator"],
+                [1, "Emerald Translator"],
+                [1, "Cobalt Translator"],
+                [1, "Super Missile", "beam-combo"],
+                [1, "Darkburst", "beam-combo"],
+                [1, "Sunburst", "beam-combo"],
+                [1, "Sonic Boom", "beam-combo"]
+            ]
+        },
+        {
+            "name": "{X} Item",
+            "variants": [
+                [1, "Ing Reliquary"],
+                [1, "Grand Windchamber"],
+                [1, "GFMC Compound (Ship)"],
+                [1, "Hall of Honored Dead"],
+                [1, "War Ritual Grounds"],
+                [1, "Profane Path"],
+                [1, "Main Energy Controller (Light Suit)"],
+                [1, "Dark Oasis"],
+                [1, "Feeding Pit"],
+                [1, "Ing Cache 2"],
+                [1, "Storage A"],
+                [1, "Storage C"],
+                [1, "Junction Site"],
+                [1, "Main Reactor"],
+                [1, "Transit Tunnel East"],
+                [1, "Transit Tunnel South"],
+                [1, "Poisoned Bog"],
+                [1, "Dungeon"],
+                [1, "Torvus Plaza"],
+                [1, "Undertemple (SA Wall)"],
+                [1, "Gathering Hall"],
+                [1, "Meditation Vista"],
+                [1, "Aerie"],
+                [1, "Main Gyro Chamber"],
+                [1, "Hive Gyro Chamber"],
+                [1, "Hive Entrance"],
+                [1, "Sanctuary Entrance"],
+                [1, "Sanctuary Map Station"],
+                [1, "Culling Chamber"],
+                [1, "Vault"],
+                [1, "Watch Station"]
+            ]
+        },
+        {
+            "name": "Complete Grand Windchamber Puzzle",
             "variants": [[1, ""]]
         },
         {
-            "name": "",
+            "name": "Ride the Gondola in Abandoned Base",
             "variants": [[1, ""]]
         },
+        {
+            "name": "Use a Save Station in {X} Regions",
+            "variants": [
+                [15, "3"],
+                [20, "4"],
+                [25, "5"]
+            ]
+        },
+        {
+            "name": "{X} Agon Save Stations",
+            "variants": [
+                [1, "1"],
+                [4, "2"],
+                [7, "3"],
+                [10, "4"],
+                [13, "5"]
+            ]
+        },
+        {
+            "name": "{X} Torvus Save Stations",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "{X} Sanctuary Save Stations",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Return {X} Energy",
+            "variants": [
+                [1, "Agon"],
+                [1, "Torvus"],
+                [1, "Sanctuary"]
+            ]
+        },
+        {
+            "name": "Unlock {X} Echo Gates",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Enter {X} Scan Portals",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Deactivate the Crypt Force Field",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Defeat the Warrior Ing in Duelling Range",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Flip Over a Dark Phlogus",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Unlock {X} Missile Door(s)",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Unlock {X} Super Missile Door(s)",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Unlock {X} Seeker Missile Door(s)",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Unlock {X} Power Bomb Door(s)",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Use {X} Kinetic Orb Cannon(s)",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Unlock a Translator Gate in {X} Region(s)",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Move {X} Light Block(s)",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Use {X} Grapple Point(s)",
+            "variants": [[1, ""]]
+        },
+        {
+            "name": "Visit Sky Temple Gateway",
+            "variants": [[1, ""]]
+        }
     ]
 }
