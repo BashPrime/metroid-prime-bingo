@@ -6,7 +6,7 @@
 - [Presets](presets/presets.md)
 - [Rules](rules.md)
 
-In addition to standard Metroid Prime: Echoes Randomizer racing rules, the following rules apply:
+In addition to standard Metroid Prime 2: Echoes Randomizer racing rules, the following rules apply:
 
 # Modes
 
@@ -38,7 +38,7 @@ The winner is the first player to complete all bingo tiles in the forced line in
 # Reset
 
 In the event of an unexpected death, softlock or crash, the affected player may have progress towards certain tiles reverted. In the event of a reset, apply the following:
-- **Item Goals** - Completion reverts to match the new player inventory state. For example, if a player dies after completing the `40 Missiles`, `Get Plasma Processing Item` and `Ice Beam` tiles, but their last save was before all 3 of those events, then they must unmark those boxes on bingosync and recollect those items before remarking them.
+- **Item Goals** - Completion reverts to match the new player inventory state. For example, if a player dies after completing the `40 Missiles`, `Get Aerie Item` and `Dark Beam` tiles, but their last save was before all 3 of those events, then they must unmark those boxes on bingosync and recollect those items before remarking them.
 - **Action Goals** - Completion persists through the reset. For example, `Use 2 Agon Save Stations`, `Lower the Bridge in Vault` and `Defeat 2 Sub-Guardians` all remain completed after a reset.
 
 Abusing this rule to deathwarp to save stations after completing Action Goals is frowned upon.
@@ -169,10 +169,10 @@ Break the blast shields on the specified number of doors. This can be done by:
   - **Ing Hive: Hive Reactor - Hive Reactor Access**
   
 ### Scan Portals
-  - **Temple Grounds: Hive Chamber B** (results in item loss cutscene)
   - **Agon Wastes: Portal Terminal**
   - **Torvus Bog: Meditation Vista**
-  - **Sanctuary Fortress: Hall of Combat Master**
+  - **Sanctuary Fortress: Hall of Combat Mastery**
+  - **Sanctuary Fortress: Vault**
 
 ### Defeat the Warrior Ing in Duelling Range
   Step into the light crystal zone between Ing Cache 4 and Save Station 2.
