@@ -1,0 +1,181 @@
+# Rules
+
+### Quick Links
+- [Welcome](index.md)
+- [Bingosync](https://www.bingosync.com/)
+- [Presets](presets/presets.md)
+- [Rules](rules.md)
+
+In addition to standard Metroid Prime: Echoes Randomizer racing rules, the following rules apply:
+
+# Modes
+
+There are various Bingo objectives which you can use as the goal. While you are welcome to use any objectives you would like, Echoes Bingo has been balanced with the following modes in mind:
+
+### Triple Bingo (1+ players)
+
+The board is revealed when time starts. The game is over when a player completes 3 horizontal, vertical or diagonal lines on the board.
+
+### Lockout (2 Players)
+
+When creating the Bingosync room, choose "Lockout" as the Mode.
+
+The board is revealed when time starts. The first player to complete any 13 tiles wins. Each tile can only be completed by 1 player. Clicking on the corresponding square on Bingosync "locks" the other player from being able to complete that tile. If one player completes an objective, but forgets to click a tile before the other player completes that same objective, the tile goes to the first player to actually click the tile on Bingosync. If a player loses items due to a death or softlock, the corresponding item-related goals become available to be "stolen" by their opponent until
+
+### Double Anti-Bingo (DAB) (2+ Players)
+
+"Double" means that 2 lines are needed to win. "Anti-Bingo" means that each player will be forced to complete 1 line of an opponent's choosing. 
+
+The board is revealed to all players prior to the start of the race. After all the participants have been determined, a circular order of assignment is created randomly. For example:
+```
+Player 1 -> Player 2 -> Player 3 -> Player 1
+```
+
+Following this assignment order, players discretely decide a row, column or diagonal which their assignee must complete during the game. Once all players are ready, each player announces the line which they have chosen for their assignee. As soon as the last player has been informed of their forced line, time begins and gameplay starts. Optionally, you may choose to implement a rule here where each line can only have at most 1 player assigned to it (less fair; more interesting).
+
+The winner is the first player to complete all bingo tiles in the forced line in addition to all tiles in any other 2nd line. Forced lines cannot be changed after being revealed at the start of the game. The self-determined 2nd line does not have to be revealed publicly and can be changed freely. The order of line completion does not matter.
+
+# Reset
+
+In the event of an unexpected death, softlock or crash, the affected player may have progress towards certain tiles reverted. In the event of a reset, apply the following:
+- **Item Goals** - Completion reverts to match the new player inventory state. For example, if a player dies after completing the `40 Missiles`, `Get Plasma Processing Item` and `Ice Beam` tiles, but their last save was before all 3 of those events, then they must unmark those boxes on bingosync and recollect those items before remarking them.
+- **Action Goals** - Completion persists through the reset. For example, `Use 2 Agon Save Stations`, `Lower the Bridge in Vault` and `Defeat 2 Sub-Guardians` all remain completed after a reset.
+
+Abusing this rule to deathwarp to save stations after completing Action Goals is frowned upon.
+
+# Goals
+
+### X Guardians
+
+Defeat the specified number of Temple Guardians. Guardians include:
+- Amorbis
+- Chykka
+- Quadraxis
+
+### X Sub-Guardians
+
+Defeat the specified number of Sub-Guardians. Sub-Guardians include:
+- Bomb Guardian
+- Jump Guardian
+- Boost Guardian
+- Grapple Guardian
+- Spider Guardian
+- Power Bomb Guardian
+
+### X Minor Bosses
+
+Defeat the specified number of Minor Bosses. Minor Bosses include:
+- Dark Alpha Splinter
+- Dark Missile Trooper
+- Dark Samus 1
+- Alpha Blogg
+- Dark Samus 2
+- Caretaker Drone 
+
+### X Item
+
+Collect the item in the specified location.
+
+### <Item Name>
+
+Find and collect the specified item.
+
+### Have X Y
+
+Find and collect the specified item (Y) until you have met the count (X). For example, "Have 4 Translators" means that you need to have Violet, Amber, Emerald, and Cobalt. Picking up Violet, Amber, Emerald, and a duplicate Amber would NOT count.
+
+### Use a Save Station in X Regions
+
+Use at least 1 save station in X regions. The 5 regions include the light and dark versions of:
+  -Great Temple
+  -Temple Grounds
+  -Agon Wastes
+  -Torvus Bog
+  -Sanctuary Fortress
+
+### Use X Y Save/Map/Ammo Stations
+
+Use the specified number of Save, Map, or Ammo Stations (X) in the specified Region (Y).
+
+## Unlock X Y Doors
+  
+Break the blast shields on the specified number of doors. This can be done by:
+  -Using the intended weapon on the door
+  -Opening the door from the other side, causing the shield to be removed
+  -Destroying seeker locks with missiles and screw attack
+  
+# Locations
+  
+### Missile Doors
+  - **Temple Grounds: Temple Assembly Site - Storage Cavern B**
+  - **Temple Grounds: GFMC Compound - Sacred Bridge**
+  - **Temple Grounds: Torvus Transport Access - Transport to Torvus Bog**
+  - **Agon Wastes: Mining Plaza - Save Station A**
+  - **Agon Wastes: Mining Station A - Temple Access**
+  - **Agon Wastes: Central Station Access - Central Mining Station**
+  - **Agon Wastes: Security Station B - Command Center (computer terminal room)**
+  - **Agon Wastes: Biostorage Access - Biostorage Station**
+  - **Agon Wastes: Ventilation Shaft A - Save Station B**
+  - **Dark Agon Wastes: Hall of Stairs - Save Station 3**
+  - **Dark Agon Wastes: Watering Hole - Feeding Pit**
+  - **Torvus Bog: Torvus Lagoon - Save Station A**
+  - **Torvus Bog: Great Bridge - Portal Chamber**
+  - **Torvus Bog: Forgotten Bridge - Plaza Access**
+  - **Torvus Bog: Hydrodynamo Station - Save Station B**
+  - **Dark Torvus Bog: Venomous Pond - Save Station 1**
+  - **Dark Torvus Bog: Undertemple Shaft - Save Station 2**
+  - **Sanctuary Fortress: Reactor Core - Save Station A**
+  - **Sanctuary Fortress: Main Gyro Chamber - Save Station B**
+  - **Ing Hive: Hive Gyro Chamber - Hive Save Station 2**
+  
+### Super Missile Doors
+  - **Temple Grounds: Service Access - Meeting Grounds**
+  - **Temple Grounds: Hall of Eyes - Path of Eyes**
+  - **Temple Grounds: Path of Eyes - Windchamber Gateway**
+  - **Sky Temple Grounds: Base Access - War Ritual Grounds**
+  - **Sky Temple Grounds: Shrine Access - Defiled Shrine**
+  - **Sky Temple Grounds: Shrine Access - Gateway Access** (note: super door is on side of Gateway Access, but is normally destroyed by opening seeker door)
+  - **Agon Wastes: Bioenergy Production - Storage C**
+  - **Dark Agon Wastes: Warrior's Walk - Judgement Pit**
+  - **Dark Agon Wastes: Warrior's Walk - Battleground**
+  - **Torvus Bog: Temple Access (lower) - Torvus Temple**
+  - **Torvus Bog: Torvus Temple - Underground Transport**
+  - **Dark Torvus Bog: Dark Torvus Temple - Cache B**
+  - **Dark Torvus Bog: Brooding Ground - Dark Forgotten Bridge**
+ 
+### Seeker Missile Doors
+  - **Temple Grounds: Path of Honor - Hall of Honored Dead**
+  - **Sky Temple Grounds: Shrine Access - Gateway Access**
+  - **Sky Temple Grounds: Plain of Dark Worship - Lake Access**
+  - **Sky Temple Grounds: Phazon Grounds - Reliquary Access**
+  - **Agon Wastes: Mine Shaft - Mining Station B**
+  - **Agon Wastes: Transport Center - Transport to Torvus Bog**
+  - **Torvus Bog: Torvus Temple - Transport to Agon Wastes**
+  - **Torvus Bog: Hydrodynamo Station - Training Access**
+  - **Dark Torvus Bog: Poisoned Bog - Cache A**
+  
+### Power Bomb Doors
+  - **Temple Grounds: GFMC Compound - Windchamber Tunnel**
+  - **Temple Grounds: Grand Windchamber - Windchamber Gateway**
+  - **Agon Wastes: Ventilation Shaft A - Transport to Sanctuary Fortress**
+  - **Dark Torvus Bog: Putrid Alcove - Dark Forgotten Bridge**
+  - **Dark Torvus Bog: Putrid Alcove - Poisoned Bog**
+  - **Dark Torvus Bog: Undertemple Access - Undertemple**
+  - **Dark Torvus Bog: Undertemple Access - Undertemple Shaft**
+  - **Sanctuary Fortress: Reactor Core - Transit Station**
+  - **Sanctuary Fortress: Main Research - Torvus Transport Access**
+  - **Sanctuary Fortress: Dynamo Works - Dynamo Storage**
+  - **Sanctuary Fortress: Main Gyro Chamber - Checkpoint Station**
+  - **Ing Hive: Hive Reactor - Hive Reactor Access**
+  
+### Scan Portals
+  - **Temple Grounds: Hive Chamber B** (results in item loss cutscene)
+  - **Agon Wastes: Portal Terminal**
+  - **Torvus Bog: Meditation Vista**
+  - **Sanctuary Fortress: Hall of Combat Master**
+
+### Defeat the Warrior Ing in Duelling Range
+  Step into the light crystal zone between Ing Cache 4 and Save Station 2.
+  
+### Defeat both Ingsmashers in Reactor Access
+  This requires the item dropped by Power Bomb Guardian to be picked up.
