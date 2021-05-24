@@ -34,7 +34,7 @@
         {
             "name": "Defeat the Dark Ingsmasher in Hive Portal Chamber",
             "variants": [[9, ""]]
-            "types": ["enemy", "sanc-enemy"]
+            "types": ["enemy", "sanctuary"]
         },
         {
             "name": "Destroy 1 Flying Ing Cache in {X} areas",
@@ -121,10 +121,10 @@
         {
             "name": "Have {X} Energy Tanks",
             "variants": [
-                [2, "3"],
+                [3, "3"],
                 [10, "6"],
-                [17, "9"],
-                [21, "12"]
+                [19, "9"],
+                [24, "12"]
             ]
             "types": ["item", "energy-tank"]
         },
@@ -207,10 +207,10 @@
                 [15, "Light Suit", "suit"],
                 [10, "Dark Visor", "visor"],
                 [11, "Echo Visor", "visor"],
-                [4, "Violet Translator"],
-                [9, "Amber Translator"],
-                [9, "Emerald Translator"],
-                [12, "Cobalt Translator"],
+                [4, "Violet Translator", "translator"],
+                [9, "Amber Translator", "translator"],
+                [9, "Emerald Translator", "translator"],
+                [12, "Cobalt Translator", "translator"],
                 [6, "Super Missile", "beam-combo"],
                 [13, "Darkburst", "beam-combo"],
                 [15, "Sunburst", "beam-combo"],
@@ -340,18 +340,20 @@
         },
         {
             "name": "Unlock {X} Echo Gates",
-            "variants": [[1, "1"]]
-                
+            "variants": [
+                [2, "1"]
+                [4, "1"]
+                [6, "1"]
             ]
             "types": ["event", "echo"]
         },
         {
             "name": "Enter {X} Scan Portals",
             "variants": [
-                [1, "1"],
-                [1, "2"],
-                [1, "3"],
-                [1, "4"]
+                [2, "1"],
+                [6, "2"],
+                [11, "3"],
+                [14, "4"]
             ]
             "types": ["event"]
         },
@@ -401,9 +403,9 @@
         {
             "name": "Unlock {X} Power Bomb Door(s)",
             "variants": [
-                [1, "3"],
-                [1, "6"],
-                [1, "9"]
+                [6, "3"],
+                [11, "6"],
+                [17, "9"]
             ]
             "types": ["break", "power-bomb"]
         },
