@@ -106,7 +106,7 @@ Break the blast shields on the specified number of doors. This can be done by:
   
 # Locations
   
-### Missile Doors
+### Missile Doors (20)
   - **Temple Grounds: Temple Assembly Site - Storage Cavern B**
   - **Temple Grounds: GFMC Compound - Sacred Bridge**
   - **Temple Grounds: Torvus Transport Access - Transport to Torvus Bog**
@@ -128,13 +128,13 @@ Break the blast shields on the specified number of doors. This can be done by:
   - **Sanctuary Fortress: Main Gyro Chamber - Save Station B**
   - **Ing Hive: Hive Gyro Chamber - Hive Save Station 2**
   
-### Super Missile Doors
+### Super Missile Doors (13)
   - **Temple Grounds: Service Access - Meeting Grounds**
   - **Temple Grounds: Hall of Eyes - Path of Eyes**
   - **Temple Grounds: Path of Eyes - Windchamber Gateway**
   - **Sky Temple Grounds: Base Access - War Ritual Grounds**
   - **Sky Temple Grounds: Shrine Access - Defiled Shrine**
-  - **Sky Temple Grounds: Shrine Access - Gateway Access** (note: super door is on side of Gateway Access, but is normally destroyed by opening seeker door)
+  - **Sky Temple Grounds: Lake Access - Plain of Dark Worship** (note: super door is on side of Lake Access, but is normally destroyed by opening seeker door)
   - **Agon Wastes: Bioenergy Production - Storage C**
   - **Dark Agon Wastes: Warrior's Walk - Judgement Pit**
   - **Dark Agon Wastes: Warrior's Walk - Battleground**
@@ -143,7 +143,7 @@ Break the blast shields on the specified number of doors. This can be done by:
   - **Dark Torvus Bog: Dark Torvus Temple - Cache B**
   - **Dark Torvus Bog: Brooding Ground - Dark Forgotten Bridge**
  
-### Seeker Missile Doors
+### Seeker Missile Doors (9)
   - **Temple Grounds: Path of Honor - Hall of Honored Dead**
   - **Sky Temple Grounds: Shrine Access - Gateway Access**
   - **Sky Temple Grounds: Plain of Dark Worship - Lake Access**
@@ -154,7 +154,7 @@ Break the blast shields on the specified number of doors. This can be done by:
   - **Torvus Bog: Hydrodynamo Station - Training Access**
   - **Dark Torvus Bog: Poisoned Bog - Cache A**
   
-### Power Bomb Doors
+### Power Bomb Doors (12)
   - **Temple Grounds: GFMC Compound - Windchamber Tunnel**
   - **Temple Grounds: Grand Windchamber - Windchamber Gateway**
   - **Agon Wastes: Ventilation Shaft A - Transport to Sanctuary Fortress**
@@ -168,11 +168,18 @@ Break the blast shields on the specified number of doors. This can be done by:
   - **Sanctuary Fortress: Main Gyro Chamber - Checkpoint Station**
   - **Ing Hive: Hive Reactor - Hive Reactor Access**
   
-### Scan Portals
+### Scan Portals (4)
   - **Temple Grounds: Hive Chamber B** (results in item loss cutscene)
   - **Agon Wastes: Portal Terminal**
   - **Torvus Bog: Meditation Vista**
   - **Sanctuary Fortress: Hall of Combat Master**
+  
+### Cannon Locations (37)
+   -**Temple Grounds (6):** GMFC Compound, Sacred Bridge, Sacred Path, Grand Windchamber, Windchamber Gateway (x2)
+   -**Sky Temple Grounds (4):** Ing Windchamber (x4)
+   -**Agon Wastes (12):** Portal Access (x6), Mining Station Access, Mining Station A, Mining Station B (x2), Sandcanyon (x2)
+   -**Torvus Bog (3):** Great Bridge, Torvus Plaza, Gathering Hall
+   -**Sanctuary Fortress (12):** Sanctuary Entrance, Reactor Core, Central Area Transport West (x5), Watch Station, Workers Path (x2), Temple Access, Main Gyro Chamber
 
 ### Defeat the Warrior Ing in Duelling Range
   Step into the light crystal zone between Ing Cache 4 and Save Station 2.
