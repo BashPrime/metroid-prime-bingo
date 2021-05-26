@@ -222,7 +222,7 @@
             "name": "{X} Item",
             "variants": [
                 [6, "Hive Chamber A"],
-                [19, "Ing Reliquary"],
+                [22, "Ing Reliquary"],
                 [11, "Grand Windchamber"],
                 [6, "GFMC Compound (Ship)"],
                 [9, "Hall of Honored Dead"],
@@ -239,6 +239,7 @@
         {
             "name": "{X} Item",
             "variants": [
+                [18, "Mining Plaza"],
                 [21, "Dark Oasis"],
                 [16, "Feeding Pit"],
                 [13, "Ing Cache 2"],
@@ -253,7 +254,7 @@
             "name": "{X} Item",
             "variants": [
                 [14, "Transit Tunnel East"],
-                [14, "Transit Tunnel South"],
+                [15, "Transit Tunnel South"],
                 [17, "Poisoned Bog"],
                 [17, "Dungeon"],
                 [10, "Torvus Plaza"],
@@ -279,7 +280,7 @@
             "types": ["location", "sanctuary"]
         },
         {
-            "name": "Complete Grand Windchamber Puzzle",
+            "name": "Complete the Grand Windchamber Puzzle",
             "variants": [[18, ""]],
             "types": ["event", "temple-grounds"]
         },
@@ -339,17 +340,30 @@
             "types": ["major-boss", "event"]
         },
         {
-            "name": "Unlock {X} Echo Gates",
-            "variants": [[1, "1"]],
+            "name": "Unlock {X} Sonic System Echo Gate(s)",
+            "variants": [
+                [12, "1"],
+                [13, "2"],
+                [14, "3"]
+            ],
             "types": ["event", "echo"]
         },
         {
-            "name": "Enter {X} Scan Portals",
+            "name": "Unlock {X} Echo Key Beam Gate(s)",
             "variants": [
-                [1, "1"],
-                [1, "2"],
-                [1, "3"],
-                [1, "4"]
+                [14, "1"],
+                [15, "2"],
+                [16, "3"]
+            ],
+            "types": ["event", "echo"]
+        },
+        {
+            "name": "Enter {X} Generator Portals",
+            "variants": [
+                [2, "1"],
+                [6, "2"],
+                [8, "3"],
+                [11, "4"]
             ],
             "types": ["event"]
         },
@@ -379,7 +393,7 @@
             "types": ["break", "missile"]
         },
         {
-            "name": "Unlock {X} Super Missile Door(s)",
+            "name": "Unlock {X} Super Missile Doors",
             "variants": [
                 [6, "3"],
                 [11, "6"],
@@ -388,7 +402,7 @@
             "types": ["break", "super-missile"]
         },
         {
-            "name": "Unlock {X} Seeker Missile Door(s)",
+            "name": "Unlock {X} Seeker Missile Doors",
             "variants": [
                 [6, "2"],
                 [11, "5"],
@@ -397,11 +411,11 @@
             "types": ["break", "seeker-missile"]
         },
         {
-            "name": "Unlock {X} Power Bomb Door(s)",
+            "name": "Unlock {X} Power Bomb Doors",
             "variants": [
-                [1, "3"],
-                [1, "6"],
-                [1, "9"]
+                [11, "3"],
+                [14, "6"],
+                [17, "9"]
             ],
             "types": ["break", "power-bomb"]
         },
