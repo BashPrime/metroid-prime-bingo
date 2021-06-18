@@ -3,16 +3,16 @@
         {
             "name": "Defeat {X} Guardian(s)",
             "variants": [
-                [12, "1"],
+                [17, "1"],
                 [21, "2"],
-                [25, "3"]              
+                [25, "3"]
             ],
             "types": ["major-boss"]
         },
         {
             "name": "Defeat {X} Sub-Guardians",
             "variants": [
-                [2, "2"],
+                [3, "2"],
                 [7, "3"],
                 [14, "4"],
                 [19, "5"],
@@ -32,12 +32,12 @@
             "types": ["minor-boss"]
         },
         {
-            "name": "Defeat the Dark Ingsmasher in Hive Portal Chamber",
-            "variants": [[9, ""]],
-            "types": ["enemy", "sanc-enemy"]
+            "name": "Defeat a Dark Ingsmasher",
+            "variants": [[15, ""]],
+            "types": ["sanctuary", "enemy"]
         },
         {
-            "name": "Destroy 1 Flying Ing Cache in {X} areas",
+            "name": "Destroy a Flying Ing Cache in {X} area(s)",
             "variants": [
                 [11, "1"],
                 [14, "2"],
@@ -62,7 +62,7 @@
             "types": ["enemy", "torvus"]
         },
         {
-            "name": "Defeat both Krocusses",
+            "name": "Defeat all 3 Krocusses",
             "variants": [[8, ""]],
             "types": ["enemy", "torvus"]
         },
@@ -73,7 +73,7 @@
         },
         {
             "name": "Defeat both Sandiggers in Mining Plaza",
-            "variants": [[3, ""]],
+            "variants": [[2, ""]],
             "types": ["enemy", "agon"]
         },
         {
@@ -82,29 +82,11 @@
             "types": ["enemy", "agon"]
         },
         {
-            "name": "Collect {X} Dark Agon Keys",
+            "name": "Have {X} Red Temple Key(s)",
             "variants": [
-                [3, "1"],
-                [7, "2"],
-                [14, "3"]
-            ],
-            "types": ["item", "key"]
-        },
-                {
-            "name": "Collect {X} Dark Torvus Keys",
-            "variants": [
-                [4, "1"],
-                [9, "2"],
-                [18, "3"]
-            ],
-            "types": ["item", "key"]
-        },
-                {
-            "name": "Collect {X} Ing Hive Keys",
-            "variants": [
-                [5, "1"],
-                [12, "2"],
-                [20, "3"]
+                [10, "3"],
+                [15, "6"],
+                [20, "9"]
             ],
             "types": ["item", "key"]
         },
@@ -121,7 +103,8 @@
         {
             "name": "Have {X} Energy Tanks",
             "variants": [
-                [2, "3"],
+                [3, "2"],
+                [7, "3"],
                 [10, "6"],
                 [17, "9"],
                 [21, "12"]
@@ -131,10 +114,10 @@
         {
             "name": "Have {X} Missiles",
             "variants": [
-                [3, "30"],
-                [11, "60"],
-                [16, "90"],
-                [22, "120"]
+                [2, "30"],
+                [7, "60"],
+                [12, "90"],
+                [17, "120"]
             ],
             "types": ["item", "missile"]
         },
@@ -169,7 +152,7 @@
         {
             "name": "Have {X} Beam Combo(s)",
             "variants": [
-                [3,  "1"],
+                [6,  "1"],
                 [8,  "2"],
                 [16, "3"],
                 [24, "4"]
@@ -190,18 +173,18 @@
             "name": "{X}",
             "variants": [
                 [15, "Energy Transfer Module"],
-                [2, "Missile Launcher", "missile"],
+                [1, "Missile Launcher", "missile"],
                 [6, "Seeker Launcher", "missile"],
-                [1, "Morph Ball Bomb", "ball-upgrade"],
+                [2, "Morph Ball Bomb", "ball-upgrade"],
                 [7, "Boost Ball", "ball-upgrade"],
                 [7, "Spider Ball", "ball-upgrade"],
                 [8, "Main Power Bomb", "ball-upgrade"],
-                [1, "Space Jump Boots", "movement-system"],
+                [2, "Space Jump Boots", "movement-system"],
                 [11, "Gravity Boost", "movement-system"],
                 [13, "Grapple Beam", "movement-system"],
                 [5, "Screw Attack", "movement-system"],
-                [2, "Dark Beam", "beam"],
-                [2, "Light Beam", "beam"],
+                [4, "Dark Beam", "beam"],
+                [4, "Light Beam", "beam"],
                 [10, "Annihilator Beam", "beam"],
                 [5, "Dark Suit", "suit"],
                 [15, "Light Suit", "suit"],
@@ -222,7 +205,8 @@
             "name": "{X} Item",
             "variants": [
                 [6, "Hive Chamber A"],
-                [22, "Ing Reliquary"],
+                [2, "Hive Chamber B"],
+                [24, "Ing Reliquary"],
                 [11, "Grand Windchamber"],
                 [6, "GFMC Compound (Ship)"],
                 [9, "Hall of Honored Dead"],
@@ -233,34 +217,35 @@
         },
         {
             "name": "{X} Item",
-            "variants": [[19, "Main Energy Controller (Light Suit)"]],
+            "variants": [[25, "Main Energy Controller (2nd)"]],
             "types": ["location", "great-temple"]
         },
         {
             "name": "{X} Item",
             "variants": [
-                [18, "Mining Plaza"],
-                [21, "Dark Oasis"],
-                [16, "Feeding Pit"],
-                [13, "Ing Cache 2"],
+                [20, "Mining Plaza"],
+                [25, "Dark Oasis"],
+                [17, "Feeding Pit"],
+                [16, "Ing Cache 2"],
                 [13, "Storage A"],
                 [13, "Storage C"],
-                [7, "Junction Site"],
-                [8, "Main Reactor"]
+                [12, "Junction Site"],
+                [16, "Main Reactor"],
+                [3, "Trial Tunnel"]
             ],
             "types": ["location", "agon"]
         },
         {
             "name": "{X} Item",
             "variants": [
-                [14, "Transit Tunnel East"],
-                [15, "Transit Tunnel South"],
-                [17, "Poisoned Bog"],
-                [17, "Dungeon"],
-                [10, "Torvus Plaza"],
-                [12, "Undertemple (SA Wall)"],
-                [12, "Gathering Hall"],
-                [10, "Meditation Vista"]
+                [16, "Transit Tunnel East"],
+                [19, "Transit Tunnel South"],
+                [24, "Poisoned Bog"],
+                [24, "Dungeon"],
+                [18, "Torvus Plaza"],
+                [14, "Undertemple (SA Wall)"],
+                [19, "Gathering Hall"],
+                [14, "Meditation Vista"]
             ],
             "types": ["location", "torvus"]
         },
@@ -270,11 +255,11 @@
                 [15, "Aerie"],
                 [14, "Main Gyro Chamber"],
                 [15, "Hive Gyro Chamber"],
-                [19, "Hive Entrance"],
+                [25, "Hive Entrance"],
                 [15, "Sanctuary Entrance"],
                 [18, "Sanctuary Map Station"],
                 [7, "Culling Chamber"],
-                [10, "Vault"],
+                [15, "Vault"],
                 [9, "Watch Station"]
             ],
             "types": ["location", "sanctuary"]
@@ -293,15 +278,19 @@
             "name": "Use a Save Station in {X} Regions",
             "variants": [
                 [12, "3"],
-                [16, "4"],
-                [21, "5"]
+                [14, "4"],
+                [16, "5"]
             ],
             "types": ["save-station"]
         },
         {
+            "name": "1 Great Temple Save Station",
+            "variants": [[1, ""]],
+            "types": ["save-station", "great-temple"]
+        },
+        {
             "name": "{X} Agon Save Stations",
             "variants": [
-                [1, "1"],
                 [4, "2"],
                 [7, "3"],
                 [10, "4"],
@@ -310,18 +299,18 @@
             "types": ["save-station", "agon"]
         },
         {
-            "name": "{X} Torvus Save Stations",
+            "name": "{X} Torvus Save Station(s)",
             "variants": [
-                [1, "1"],
-                [4, "2"],
-                [7, "3"],
+                [4, "1"],
+                [7, "2"],
+                [10, "3"],
                 [13, "4"],
                 [16, "5"]
             ],
             "types": ["save-station", "torvus"]
         },
         {
-            "name": "{X} Sanctuary Save Stations",
+            "name": "{X} Sanctuary Save Station(s)",
             "variants": [
                 [4, "1"],
                 [7, "2"],
@@ -360,7 +349,6 @@
         {
             "name": "Enter {X} Generator Portals",
             "variants": [
-                [2, "1"],
                 [6, "2"],
                 [8, "3"],
                 [11, "4"]
@@ -424,26 +412,25 @@
             "variants": [
                 [8, "10"],
                 [19, "20"],
-                [23, "30"]
+                [24, "30"]
             ],
             "types": ["event", "cannon"]
         },
         {
-            "name": "Unlock a Translator Gate in {X} Region(s)",
+            "name": "Unlock a Translator Gate in {X} Regions",
             "variants": [
-                [2, "1"],
                 [4, "2"],
                 [11, "3"],
                 [18, "4"],
-                [24, "5"]
+                [19, "5"]
             ],
             "types": ["event", "translator"]
         },
         {
             "name": "Move {X} Light Block(s)",
             "variants": [
-                [3, "2"],
-                [5, "3"],
+                [5, "2"],
+                [7, "3"],
                 [9, "8"]
             ],
             "types": ["event", "temple-grounds"]
@@ -451,11 +438,11 @@
         {
             "name": "Use {X} Grapple Point(s)",
             "variants": [
-                [1, "3"],
-                [4, "6"],
-                [7, "9"],
-                [10, "12"],
-                [13, "15"]
+                [7, "3"],
+                [10, "6"],
+                [13, "9"],
+                [16, "12"],
+                [19, "15"]
             ],
             "types": ["event", "grapple-beam"]
         },
@@ -466,7 +453,7 @@
         },
         {
             "name": "Lower the bridge in Vault",
-            "variants": [[10, ""]],
+            "variants": [[14, ""]],
             "types": ["event", "sanctuary"]
         },
         {
@@ -502,14 +489,28 @@
         {
             "name": "Encounter Dark Samus {X} time(s)",
             "variants": [
-                [1, "1"],
-                [4, "2"],
+                [4, "1"],
+                [7, "2"],
                 [11, "3"],
                 [13, "4"],
                 [18, "5"],
                 [25, "6"]
             ],
             "types": ["event", "minor-boss"]
+        },
+        {
+            "name": "Talk to {X}",
+            "variants": [
+                [2, "I-Sha"],
+                [8, "A-Voq"],
+                [15, "O-Lir"]
+            ],
+            "types": ["event"]
+        },
+        {
+            "name": "Destroy the Wall in Sacred Path",
+            "variants": [[1, ""]],
+            "types": ["event, temple-grounds"]
         }
     ]
 }
